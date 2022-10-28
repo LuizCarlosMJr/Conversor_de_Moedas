@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Dev Club Conversor de Moedas</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Dev Club Conversor de Moedas</h1>
+        </header>
+
+        <main>
+            <div >
+
+                <label>
+                    <u>Converter</u> <u><b>de</b></u>:
+                    <select>
+                        <option>
+                            R$ Real Brasileiro
+                        </option>
+                    </select>
+                </label>
+
+                <label>
+                    <u>Converter</u> <u><b>para</b></u>:
+                    <select id="currency-select">
+                        <option>
+                            US$ Dólar Americano
+                        </option>
+                        <option>
+                            €$ Euro
+                        </option>
+                        <option>
+                            ₿$ Bitcoin
+                        </option>
+                    </select>
+                </label>
+
+                <label>
+                    <u>Valor</u>:
+                    <input type="number" id="inputReal" placeholder="R$ 10.000,00">
+                </label>
+
+                <button type="button" id="convert-button">Converter</button>
+
+                <section>
+                    <div class="curency-container">
+                        <img src="./assets/imgBRA.png" alt="Bandeira do Brasil">
+                        <p class="curency-name">Real</p>
+                        <p class="curency-value" id="text-value-real">R$ 10.000,00</p>
+                    </div>
+                    <img src="./assets/Vector.png" alt="Vetor" class="arrow-img">
+                    <div class="curency-container">
+                        <img src="./assets/imgEUA.png" id="currency-img" alt="Bandeira do País de converção">
+                        <p class="curency-name" id="curency-name">Dólar Americano</p>
+                        <p class="curency-value" id="text-value-dolar">$ 2.000,00</p>
+                    </div>
+
+                </section>
+
+            </div>
+        </main>
+    </div>
+
+</body>
+
+<script src="./script.js"></script> 
+
+</html>

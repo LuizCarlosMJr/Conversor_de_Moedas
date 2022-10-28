@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+body {
+    background-color: white
+}
+.container{
+    width: 600px;
+    background-color: #A9A9A9;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+header {
+    background-color: #0000CD;
+    height: 110px;
+    border-radius: 10px 10px 0 0;
+    padding: auto;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 35px;
+    color: #f4f4f4;
+    text-align: center;
+    padding-top: 25px;
+   
+}
+
+main {
+    padding: 40px 70px;
+  
+}
+
+label {
+    font-size: 20px;
+    line-height: 18px;
+    color: #0000CD;
+  
+}
+
+select {
+    background-color: #FFFFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    display: block; /*cada ítem em uma linha*/
+    width: 70%; /*ele ocupará 100% do espaço disponivel (até o padding)*/
+    height: 48px;
+    cursor: pointer;
+    outline: none;/*tira a bordinha azul qdo o select é selecionado*/
+    appearance: none;/*tira setinha de seleção ^ */
+    padding-left: 6px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+    margin: auto;
+    margin-bottom: 24px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+input {
+    background-color: #FFFFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    display: block; /*cada ítem em uma linha*/
+    width: 70%; /*ele ocupará 70% do espaço disponivel (até o padding)*/
+    height: 48px;
+    outline: none;/*tira a bordinha azul qdo o select é selecionado*/
+    padding-left: 6px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 24px;
+    margin-top: 15px;
+}
+
+button {
+    display: block;/* display blok + margin auto => deixam o button no centro da app*/
+    background-color: #0000CD;
+    border-radius: 25px;
+    height: 48px;
+    width: 300px;
+    cursor: pointer;
+    color: #f4f4f4;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 18px;
+    margin: auto;
+    margin-bottom: 24px;
+    margin-top: 6px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+    border: none;
+}
+
+button:hover {/*ação de passar o mouse*/
+    opacity: 0.5;
+}
+
+button:active {/*ação de clicar*/
+    opacity: 0.7;
+    background-color: green;
+}
+
+section {
+    border: 1px solid #1883E2;
+    border-radius: 4px;
+    text-align: center;
+   
+}
+
+.curency-container {
+    padding: 30px 30px;
+    text-align: center;
+}
+
+.curency-name {
+    font-size: 23px;
+    color: #555555;
+}
+
+.curency-value {
+    color: #0000CD;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.arrow-img {
+    margin: 15px auto;
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        width: 100%;
+        height: 100%;
+       
+    }    
+
+}
+    
